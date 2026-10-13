@@ -1,5 +1,5 @@
-version="0.1.0"
-name="council assignment automation"
+version="0.1.1"
+name="Council Assignment Automation"
 tags={
 	"Gameplay"
 	"Utilities"

@@ -2,7 +2,7 @@
 
 ## At a glance
 
-- 🟢 **Version 0.1.0** · Targets CK3 **1.20.0.4**.
+- 🟢 **Version 0.1.1** · Targets CK3 **1.20.1**.
 - 🟢 **Standalone:** no other mod required.
 - 🟢 Fill council vacancies and keep a capable council with three settings.
 - 🟢 **Languages:** English, French, German, Japanese, Korean, Polish, Russian, Simplified Chinese and Spanish.
@@ -39,7 +39,7 @@ Ordinary council roles use their relevant skill. Nomadic councils, adventurer co
 
 ## Saves and known limits
 
-Options are stored in the save and carry over when your player character changes. All options start off on first use. Turn automation off before removing the mod; completed appointments remain in the campaign. Keep a backup when changing a campaign's mod list.
+Options are stored in the save and carry over when your player character changes. After succession, enabled automation reviews the new ruler's council on the next game day and resumes its regular checks. All options start off on first use. Turn automation off before removing the mod; completed appointments remain in the campaign. Keep a backup when changing a campaign's mod list.
 
 Reviews happen every 30 game days rather than continuously each frame. An occupied position can remain unchanged because of appointment restrictions. Replacing a councillor applies the game's ordinary dismissal effects; exchanging the positions of retained councillors does not count as dismissing them from the council. Candidate scoring uses skills and the optional powerful-vassal priority; opinion and personal loyalty are not scoring criteria. Multiplayer and total conversions have no compatibility guarantee.
 
@@ -91,4 +91,4 @@ Choose automatic appointments, powerful-vassal priority and replacement monitori
 
 ## Contributing
 
-See [developer notes](dev.md) for implementation, validation and contribution guidance.
+See [developer notes](dev.md) for implementation and verification scope.

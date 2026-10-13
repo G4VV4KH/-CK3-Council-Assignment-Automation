@@ -56,3 +56,9 @@ Code, localization and publication prose were developed with AI assistance.
 No new reuse permission or open-source license is granted here. Platform
 identities remain unassigned until actual publication; local preparation never
 constitutes an upload or a delivered-byte verification.
+
+## Release 0.1.1 — CK3 1.20.1
+
+Updated for CK3 1.20.1. Preserve automation settings through player succession and resume council reviews for the successor. Respect native chaplain eligibility and existing manual appointment protection. Keep the public Council Assignment Automation name consistent.
+
+The committed runtime is the current release source. Earlier generator/test notes above retain their historical scope. Gameplay evidence is inherited from the reviewed development candidate; localization uses static coverage and format checks under publication contract 1.8.0. No additional production engine run or blanket multiplayer/visual guarantee is claimed.

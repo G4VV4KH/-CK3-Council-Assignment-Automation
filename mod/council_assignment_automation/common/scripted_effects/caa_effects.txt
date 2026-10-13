@@ -4180,7 +4180,17 @@ caa_apply_best_effect = {
 	        NOT = { cp:councillor_court_chaplain ?= var:caa_best_4 }
 	        var:caa_best_4 = { valid_for_council_position = councillor_court_chaplain }
 	    }
-	    assign_councillor_type = { type = councillor_court_chaplain target = var:caa_best_4 }
+	    # This is the human ruler's delegated choice, not native automatic fill.
+	    # Preserve an existing manual-appointment flag and its original expiry.
+	    if = {
+	        limit = { has_character_flag = manual_council_appointment_in_progress }
+	        assign_councillor_type = { type = councillor_court_chaplain target = var:caa_best_4 }
+	    }
+	    else = {
+	        add_character_flag = { flag = manual_council_appointment_in_progress days = 1 }
+	        assign_councillor_type = { type = councillor_court_chaplain target = var:caa_best_4 }
+	        remove_character_flag = manual_council_appointment_in_progress
+	    }
 	    }
 	}
 }
@@ -4446,6 +4456,11 @@ caa_inherit_settings_effect = {
         }
         else = { remove_variable = caa_observer }
     }
-    caa_run_assignment_effect = yes
-    caa_schedule_effect = yes
+    # The callback may run before native player control/council setup settles.
+    # Copy preferences now, then validate the actual human ruler on the next day.
+    # Do not copy/reset caa_tick_pending: an existing pulse must drain normally.
+    if = {
+        limit = { has_variable = caa_enabled }
+        trigger_event = { id = caa.0002 days = 1 }
+    }
 }

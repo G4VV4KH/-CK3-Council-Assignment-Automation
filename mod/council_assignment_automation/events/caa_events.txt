@@ -11,3 +11,14 @@ caa.0001 = {
         caa_schedule_effect = yes
     }
 }
+
+# Player-change recovery is separate from the regular pulse. It cannot clear a
+# still-queued pulse marker, and the guarded effects reject dead/AI/Off rulers.
+caa.0002 = {
+    type = character_event
+    hidden = yes
+    immediate = {
+        caa_run_assignment_effect = yes
+        caa_schedule_effect = yes
+    }
+}
