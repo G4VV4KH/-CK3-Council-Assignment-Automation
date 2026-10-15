@@ -2,7 +2,7 @@
 
 ## At a glance
 
-- 🟢 **Version 0.1.1** · Targets CK3 **1.20.1**.
+- 🟢 **Version 0.1.1** · Targets CK3 **1.20.1.1**.
 - 🟢 **Standalone:** no other mod required.
 - 🟢 Fill council vacancies and keep a capable council with three settings.
 - 🟢 **Languages:** English, French, German, Japanese, Korean, Polish, Russian, Simplified Chinese and Spanish.
