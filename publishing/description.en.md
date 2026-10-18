@@ -47,7 +47,7 @@ Reviews happen every 30 game days rather than continuously each frame. An occupi
 
 Include your CK3 version, government and faith, mod list, the three selected settings and the council change you expected.
 
-- [Report an issue on GitHub](https://github.com/G4VV4KH/council_assignment_automation/issues)
+- [Report an issue on GitHub](https://github.com/G4VV4KH/-CK3-Council-Assignment-Automation/issues)
 - **Email:** g4vv4kh@gmail.com
 
 ### [Want to support my work? Donate on Ko-fi 💛](https://ko-fi.com/g4vv4kh)
@@ -57,7 +57,7 @@ Include your CK3 version, government and faith, mod list, the three selected set
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3815689627)
 - [Paradox Mods](https://mods.paradoxplaza.com/mods/162417/Any)
 - [Nexus Mods](https://www.nexusmods.com/crusaderkings3/mods/413)
-- [GitHub](https://github.com/G4VV4KH/council_assignment_automation)
+- [GitHub](https://github.com/G4VV4KH/-CK3-Council-Assignment-Automation)
 
 ## My other mods
 
