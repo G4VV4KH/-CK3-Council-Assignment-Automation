@@ -1,5 +1,11 @@
 # Council Assignment Automation — developer notes
 
+## 0.1.2 for CK3 1.21.0.3
+
+Rebased the council window on CK3 1.21.0.3 Florin. The assignment controls now coexist with the updated council task controls and layouts.
+
+## Earlier development notes
+
 The editable publication description is `publishing/description.en.md`. README
 and platform descriptions are generated from it. The authoring tree is resolved
 through the workspace release registry; the local DEV descriptor is deliberately
